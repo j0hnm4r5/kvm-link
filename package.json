@@ -1,0 +1,18 @@
+{
+	"name": "kvm-link",
+	"version": "1.0.0",
+	"main": "main.js",
+	"scripts": {
+		"start": "electron .",
+		"rebuild": "./node_modules/.bin/electron-rebuild"
+	},
+	"author": "John Mars",
+	"devDependencies": {
+		"electron": "^4.0.4",
+		"electron-rebuild": "^1.8.4"
+	},
+	"dependencies": {
+		"hagen": "^1.4.0",
+		"serialport": "^7.1.4"
+	}
+}
